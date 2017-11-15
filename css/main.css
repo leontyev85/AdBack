@@ -99,7 +99,7 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: arial,"raleway-bold", sans-serif;
-	color: #252525;
+	color: #fff;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -121,6 +121,14 @@ h1, .h01 {
 .highlight {
 	color: red; font-size: 3.6rem;; margin: 0; font-weight: bold;
 }
+
+@media only screen and (max-width:850px) {
+
+	.intro-content .AdCar {
+	    width: 60% !important;
+	}	
+}
+
 @media only screen and (max-width:600px) {
 	h1, .h01 {
 		font-size: 2.6rem;
@@ -133,6 +141,10 @@ h1, .h01 {
 	.highlight {
 		color: red; font-size: 2rem;; margin: 0; font-weight: bold;
 	}
+
+	.intro-content .AdCar {
+	    width: 80% !important;
+	}	
 }
 
 h2, .h02 {
@@ -1542,7 +1554,7 @@ a.menu-toggle {
 }
 @media only screen and (max-width:400px) {
 	#process {
-		padding-bottom: 21rem;
+		/*padding-bottom: 21rem;*/
 	}
 	.process-content .image-part {
 		width: 230px;
@@ -1565,7 +1577,7 @@ a.menu-toggle {
 	-moz-background-size: cover;
 	background-size: cover;
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	/*padding-bottom: 12rem;*/
 	
 }
 #features .section-intro h1 {
@@ -1612,7 +1624,7 @@ a.menu-toggle {
 	-moz-background-size: cover;
 	background-size: cover;
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	/*padding-bottom: 12rem;*/
 }
 #main .section-intro h1 {
 }
@@ -1638,7 +1650,7 @@ a.menu-toggle {
 		padding: 0 15px;
 	}
 	#features .section-intro p {
-		font-size: 2.7rem;
+		font-size: 2.2rem;
 		text-align: left;
 
 	}
@@ -1667,7 +1679,7 @@ a.menu-toggle {
 	background: #fff url(../images/features-bg.jpg) no-repeat center;
 	/*background: #EAEAED;*/
 	padding-top: 12rem;
-	padding-bottom: 9.6rem;
+	/*padding-bottom: 9.6rem;*/
 }
 
 #team img {
@@ -1765,7 +1777,7 @@ a.menu-toggle {
     background: #090909 url(../images/features-bg.jpg) no-repeat center;
 	background-size: cover;
     padding-top: 12rem;
-	padding-bottom: 9.6rem;
+	/*padding-bottom: 9.6rem;*/
 }
 
 
@@ -2077,7 +2089,7 @@ a.menu-toggle {
 #team {
 	background: #FFFFFF;
 	padding-top: 10.2rem;
-	padding-bottom: 12rem;
+	/*padding-bottom: 12rem;*/
 	position: relative;
 	min-height: 20.4rem;
 	width: 100%;
@@ -2301,7 +2313,7 @@ a.menu-toggle {
 #faq {
 	background: #EAEAED;
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	/*padding-bottom: 12rem;*/
 }
 .faq-content {
 	margin-top: 5.4rem;
